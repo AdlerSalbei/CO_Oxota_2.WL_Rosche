@@ -19,7 +19,7 @@
 
 
 loadoutFactionBlu = "BwFleck";
-loadoutFactionOpf = "";
+loadoutFactionOpf = "RuEMR";
 loadoutFactionInd = "";
 
 

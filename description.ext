@@ -62,20 +62,11 @@ class CfgFunctions
 	#include "functions\waverespawn\cfgFunctions.hpp"
 
     #include "node_modules\grad-loadout\cfgFunctions.hpp"
-    #include "node_modules\grad-customGear\cfgFunctions.hpp"
-	#include "node_modules\grad-civs\cfgFunctions.hpp"
-	#include "node_modules\grad-fortifications\cfgFunctions.hpp"
 
 	#include "USER\userFunctions.hpp"
 };
 
-
-//DIALOGS ======================================================================
-#include "node_modules\grad-fortifications\grad_fortifications.hpp"
-#include "node_modules\grad-customGear\saveDialog\dialog.hpp"
-
 class RscTitles {
-	#include "node_modules\grad-fortifications\dialog\hint\title.hpp"
 	#include "USER\userTitles.hpp"
 
     class grad_Default {
@@ -89,8 +80,6 @@ class RscTitles {
 //NOTIFICATIONS ================================================================
 class CfgNotifications
 {
-	#include "node_modules\grad-customGear\cfgNotifications.hpp"
-
     class grad_notification1 {
         title = "%1";
         iconPicture = "\A3\ui_f\data\map\markers\military\warning_CA.paa";
@@ -125,24 +114,6 @@ class Loadouts {
         #include "node_modules\grad-factions\loadouts.hpp"
         #include "USER\userLoadouts.hpp"
     };
-};
-
-//GRAD CIVS ====================================================================
-class CfgGradCivs {
-	#include "USER\civSettings.hpp"
-
-    autoInit = 1;
-    debugMode = 0;
-};
-
-
-//OTHER NPM MODULES ============================================================
-class CfgGradCustomGear {
-    #include "USER\customGear.hpp"
-};
-
-class CfgGradFortifications {
-    #include "USER\userFortifications.hpp"
 };
 
 //XEHs =========================================================================
